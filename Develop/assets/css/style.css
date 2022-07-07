@@ -1,9 +1,11 @@
+/* universal selector for all elements */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Semantic Selectors*/
 body {
     background-color: #d9dcd6;
 }
@@ -20,6 +22,7 @@ header h1 {
     font-size: 48px;
 }
 
+/* Accessing the span tag inside the h1 tag */
 header h1 .seo {
     color: #d9dcd6;
 }
@@ -50,6 +53,8 @@ p {
     font-size: 16px;
 }
 
+/* Class selectors */
+/* hero class handles the main image of the site */
 .hero {
     height: 800px;
     width: 100%;
@@ -58,6 +63,7 @@ p {
     background-size: cover;
     background-position: center;
 }
+
 
 .float-left {
     float: left;
@@ -188,6 +194,7 @@ p {
     font-size: 36px;
 }
 
+/* semantic element for footer */
 footer {
     padding: 30px;
     clear: both;
