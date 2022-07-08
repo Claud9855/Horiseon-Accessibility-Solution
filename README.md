@@ -28,5 +28,5 @@ Changed Log:
 - Changed file paths to make it work with github pages
 - Comments added to css file
 - Changed folder structure to work with github pages
-- Added 'alt' attribute to 'img' tag and remove unneccesary 'img' closing tag
+- Added 'alt' attribute to 'img' tag and remove unnecessary 'img' closing tag
 - Changed css file structure to match with semantics structure 
